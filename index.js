@@ -1,9 +1,19 @@
+
 function doWork() {
-    let start = new Date().getTime()
-    let now = start;
-    while (now < start + 500) {
-        now = new Date().getTime()
-    }
+   return new Promise(resolve => {
+        // Create a worker
+        const myWorker = new Worker("worker.js");
+        
+        // Start the worker
+        myWorker.postMessage('doWork')
+
+        // Listen for when the worker is finished
+        myWorker.onmessage = function(){
+            console.log('in here')
+            // Resolve the asynchronous process
+            resolve()
+        }
+   })
 }
 
 function sleep(time) {

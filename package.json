@@ -1,0 +1,23 @@
+{
+  "name": "5.4.8-activity",
+  "version": "1.0.0",
+  "description": "This is an activity for FSWD Lesson 5.4.8- The Call Stack, Task Queue, & Event Loop.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server --port=9000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackerUSA-CE/lab-5.4.8-call-stack-analysis.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HackerUSA-CE/lab-5.4.8-call-stack-analysis/issues"
+  },
+  "homepage": "https://github.com/HackerUSA-CE/lab-5.4.8-call-stack-analysis#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
