@@ -1,4 +1,4 @@
-function exampleThree(){
+function exampleThree() {
 
     function one() {
         doWork()
@@ -11,7 +11,7 @@ function exampleThree(){
         doWork()
     }
 
-    async function three(){
+    async function three() {
         await sleep(500)
         doWork()
         await sleep(500)
@@ -19,5 +19,5 @@ function exampleThree(){
     }
 
     one()
-   return [two(), three()]
+    return [two(), three()]
 }
