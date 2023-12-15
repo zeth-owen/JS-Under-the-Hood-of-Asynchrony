@@ -1,4 +1,4 @@
-function exampleOne() {
+ function exampleOne() {
     
     function one() {
         doWork()
